@@ -27,21 +27,20 @@
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                             aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon text-white"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
                                 <a class="nav-link activo" aria-current="page" href="#presentacion">Presentación</a>
                                 <a class="nav-link" href="#conocimiento">Conocimientos</a>
                                 <a class="nav-link" href="#portafolio">Portafolio</a>
-                                <a class="nav-link" href="#contacto">Contacto</a>
                             </div>
                         </div>
                     </div>
                 </nav>
             </header>
             <div class="main">
-                <div class="container m-3">
+                <div class="container m-lg-3">
                     <div class="row">
                         <div class="col-lg-6 info-content" id="presentacion">
                             <h1>Soy <span>Camila</span> Flores</h1><br>
@@ -65,7 +64,7 @@
         </div>
         <!--conocimiento-->
         <div class="row about" id="conocimiento">
-            <div class="col-lg-6 p-0">
+            <div class="col-lg-6 p-0 imagen">
                 <img src="/images/avatar1.png" alt="" />
             </div>
             <div class="col-lg-6 about-info">
@@ -103,110 +102,79 @@
                 </ul>
             </div>
         </div>
-        <div class="portafolio">
+        <div class="portafolio" id="portafolio">
             <div class="portfolio-heading">
                 <h2>MI Portafolio</h2>
                 <div class="divider"></div>
             </div>
-            <div class="container">
+            <div class="container mb-3">
                 <div class="card">
-                    <div class="card__img"></div>
+                    <div class="card__img">
+                        <img class="card__img" src="/images/jumbotron-landing.jpg" alt="landing">
+                    </div>
                     <div class="card__title">
-                        <h2>Project Description</h2>
+                        <h2>Landing Page Bersa</h2>
                     </div>
                     <div class="card__proyect-links">
-                        <a href="#">
+                        <a href="https://github.com/Camila-FR/proy1landingpage" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="">
+                        <a href="https://cymbersa.netlify.app/" target="_blank">
                             <i class="fas fa-globe-asia"></i>
                         </a>
-                        <a href="">
-                            <i class="fas fa-code"></i>
-                        </a>
-                    </div>
-                    <div class="button-content">
-                        <button class="project-details-button download-cv">
-                            <a href="#">Project Details</a>
-                        </button>
+                        
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card__img"></div>
+                    <div class="card__img">
+                        <img class="card__img" src="/images/foto.mesa.restaurant.jpg" alt="restaurant">
+                    </div>
                     <div class="card__title">
-                        <h2>Project Description</h2>
+                        <h2>Puerto Sirena Restaurant</h2>
                     </div>
                     <div class="card__proyect-links">
-                        <a href="#">
+                        <a href="https://github.com/Camila-FR/Restaurant_puerto_sirena" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="">
+                        <a href="https://camila-fr.github.io/Restaurant_puerto_sirena/" target="_blank">
                             <i class="fas fa-globe-asia"></i>
                         </a>
-                        <a href="">
-                            <i class="fas fa-code"></i>
-                        </a>
-                    </div>
-                    <div class="button-content">
-                        <button class="project-details-button download-cv">
-                            <a href="#">Project Details</a>
-                        </button>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card__img"></div>
+                    <div class="card__img">
+                        <img class="card__img" src="/images/imagenFinanzas2.jpg" alt="finanzas">
+                    </div>
                     <div class="card__title">
-                        <h2>Project Description</h2>
+                        <h2>Dashboard indicadores</h2>
                     </div>
                     <div class="card__proyect-links">
-                        <a href="#">
+                        <a href="https://github.com/bacevedo12/Dashboard" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="">
+                        <a href="https://bacevedo12.github.io/Dashboard/" target="_blank">
                             <i class="fas fa-globe-asia"></i>
                         </a>
-                        <a href="">
-                            <i class="fas fa-code"></i>
-                        </a>
-                    </div>
-                    <div class="button-content">
-                        <button class="project-details-button download-cv">
-                            <a href="#">Project Details</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="contact-section">
-            <div class="contact-heading">
-                <h2>Keep in touch</h2>
-                <div class="divider"></div>
-            </div>
-            <div class="container-contact">
-                <img src="https://res.cloudinary.com/freelancer2222222222222222/image/upload/v1650543288/samples/img-opacity50_jgruyl.png"
-                    alt="" />
-                <div class="contact-form">
-                    <h4>Send me a message...</h4>
-                    <form class="form-group">
-                        <input type="text" placeholder="Name" class="input" />
-                        <input type="email" placeholder="Email" class="input" />
-                        <textarea name="message" placeholder="Place your message here..."></textarea>
-                        <button type="submit" class="btn-submit">Send message</button>
-                    </form>
+                    </div>
+ 
                 </div>
             </div>
         </div>
 
         <footer class="footer">
             <div class="footer-content">
-                <h2>John Carter</h2>
-                <h5>Frontend Developer</h5>
+                <h2>Camila Flores</h2>
+                <h5>Full Stack Developer</h5>
             </div>
             <div class="sotial-networks">
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-linkedin"></i>
                 <i class="fab fa-twitter-square"></i>
+            </div>
+            <div class="d-flex flex-wrap contacto">
+                <h3 class="p-3">Email: camilafloresramirez@gmail.com</h3>
+                <h3 class="p-3">Celular: +5693456789</h3>
             </div>
         </footer>
     </body>

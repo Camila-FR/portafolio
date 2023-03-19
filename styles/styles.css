@@ -21,6 +21,11 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 2em;
+  flex-grow: 0 !important;
+}
+
+.navbar-toggler{
+  color: white !important;
 }
 .marca {
   margin-top: -7px;
@@ -118,20 +123,16 @@ h1 {
   margin-bottom: 2em;
 }
 
-/* .about p {
-  margin-bottom: 1em;
-} */
 
 
-
-.portfolio,
+.portafolio,
 .contact-section {
   width: 100vw;
   background-color: #191c32;
   color: #fff;
 }
 
-.portfolio-heading {
+.portafolio-heading {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -140,16 +141,13 @@ h1 {
 }
 
 
-.portfolio-heading h2,
+.portafolio-heading h2,
 .contact-heading h2 {
   font-size: 2.5em;
   color: #fff;
 }
 
-.portfolio .container {
-  width: 80vw;
-  height: 80vh;
-  margin: 0 auto;
+.portafolio .container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,10 +160,9 @@ h1 {
 }
 
 .card__img {
-  width: 100%;
-  height: 150px;
-  background-image: url(https://res.cloudinary.com/freelancer2222222222222222/image/upload/v1650543491/samples/2-original_agisst.png);
-  background-size: cover;
+  width:32px; /* Ancho inicial imagénes. 50% real */
+  height:32px;
+  
 }
 
 .card__title {
@@ -191,68 +188,12 @@ h1 {
   margin: 1em;
 }
 
-.project-details-button a {
-  text-decoration: none;
-  color: #191c32;
-}
-
-
-.contact-section {
-  padding: 3em;
-}
-
-.container-contact {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-}
-
-.contact-section img {
-  width: 750px;
-  height: 700px;
-  bottom: 0px;
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  width: 30vw;
-  margin-top: 2em;
-}
-.form-group textarea {
-  height: 150px;
-  padding: 1.5em;
-  background: none;
-  border: 1px solid #fff;
-  color: #fff;
-}
-
-.form-group .input {
-  padding: 10px 20px;
-  margin-bottom: 1em;
-  background: none;
-  border: none;
-  border-bottom: 1px solid #fff;
-  color: #fff;
-}
-
-.form-group .btn-submit {
-  padding: 10px 20px;
-  margin: 1em;
-  border-radius: 20px;
-  border: none;
-  text-transform: uppercase;
-  background-color: aqua;
-}
-
-
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 200px;
+
   padding: 2em;
   background-color: #ddb0e2;
 }
@@ -289,7 +230,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5em;
+  padding: 2.5em;
 }
 
 
@@ -302,7 +243,7 @@ h1 {
 .portfolio .container {
   width: 80vw;
   height: 80vh;
-  margin: 0 auto;
+  margin: 3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -344,74 +285,19 @@ h1 {
   margin: 1em;
 }
 
-.project-details-button a {
-  text-decoration: none;
-  color: #191c32;
-}
-
-.contact-section {
-  padding: 3em;
-}
-
-.container-contact {
-  margin: 0 auto;
-  margin-top: 10em;
-}
-
-
-
-.contact-section img {
-  width: 750px;
-  height: 700px;
-  bottom: 0px;
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  width: 30vw;
-  margin-top: 2em;
-}
-.form-group textarea {
-  height: 150px;
-  padding: 1.5em;
-  background: none;
-  border: 1px solid #fff;
-  color: #fff;
-}
-
-.form-group .input {
-  padding: 10px 20px;
-  margin-bottom: 1em;
-  background: none;
-  border: none;
-  border-bottom: 1px solid #fff;
-  color: #fff;
-}
-
-.form-group .btn-submit {
-  padding: 10px 20px;
-  margin: 1em;
-  border-radius: 20px;
-  border: none;
-  text-transform: uppercase;
-  background-color: #ddb0e2;
-}
-
-
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 200px;
+
   padding: 2em;
   background-color: #ddb0e2;
 }
 
 .footer-content h2 {
   font-size: 3em;
+  font-weight: bold;
 }
 
 .footer-content h5 {
@@ -468,12 +354,37 @@ h1 {
 
 @media (max-width: 992px) {
   .about-info {
-    display: flex-column;
-    justify-content: center;
-    align-items: center;
+
     text-align: center;
 
   }
+  .about ul{
+    
 
-}
+    text-align: center;
+  }
+  .about img {
   
+    width: 400px;
+   
+  }
+.imagen{
+  
+  text-align: center;
+}
+  .divider{
+    display: none;
+  }
+}
+
+@media (max-width: 400px){
+.card__title{
+  display: none;
+}
+.footer-content h2 {
+  font-size: 2em;
+}
+  .contacto h3 {
+    font: size 0.5em;;
+}
+}
