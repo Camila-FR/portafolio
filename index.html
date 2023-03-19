@@ -1,202 +1,215 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
     <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
     <link rel="stylesheet" href="/styles/styles.css" />
     <!--inconos-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/7ebf5099c2.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <script src="https://kit.fontawesome.com/7ebf5099c2.js" crossorigin="anonymous"></script>
 
-  <body>
+</head>
+
+<body>
+
     <body>
-      <div class="contenedor">
-        <header>
-          <nav class="navbar">
-            <div class="marca">
-              <h2>C<span>F</span></h2>
+        <div class="contenedor p-0">
+            <header>
+                <nav class="navbar navbar-expand-lg menu">
+                    <div class="container-fluid marca d-flex justify-content-around m-0">
+                        <a class="navbar-brand marca" href="#">C<span>F</span></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link activo" aria-current="page" href="#presentacion">Presentación</a>
+                                <a class="nav-link" href="#conocimiento">Conocimientos</a>
+                                <a class="nav-link" href="#portafolio">Portafolio</a>
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="main">
+                <div class="container m-3">
+                    <div class="row">
+                        <div class="col-lg-6 info-content" id="presentacion">
+                            <h1>Soy <span>Camila</span> Flores</h1><br>
+                            <p>
+                                Entusiasta, autodidacta, amante del desarrollo web, creo que
+                                las líneas de código se definen como obras de arte digitales.
+                                Resuelvo problemas de manera creativa, con dedicación y amor
+                                por el uso de las últimas tecnologías y obsesión por los
+                                detalles. Con capacidades para desarrollar web en equipo,
+                                desarrollando y crear cosas increíbles. Si necesitas una
+                                página web impresionante, o manos que aporten a tus proyectos,
+                                no dudes en llamarme!
+                            </p>
+                        </div>
+                        <div class="col-lg-6 text-center p-3">
+                            <img src="/images/avatar2.png" alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <ul class="menu">
-              <li><a href="#presentacion" class="active">Presentación</a></li>
-              <li><a href="#conocimiento">Conocimientos</a></li>
-              <li><a href="#">Portafolio</a></li>
-              <li><a href="#">Contacto</a></li>
-            </ul>
-          </nav>
-        </header>
-        <main class="main">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 info-content" id="presentacion">
-                <h1>Soy <span>Camila</span> Flores</h1><br>
-                <p>
-                  Entusiasta, autodidacta, amante del desarrollo web, creo que
-                  las líneas de código se definen como obras de arte digitales.
-                  Resuelvo problemas de manera creativa, con dedicación y amor
-                  por el uso de las últimas tecnologías y obsesión por los
-                  detalles. Con capacidades para desarrollar web en equipo,
-                  desarrollando y crear cosas increíbles. Si necesitas una
-                  página web impresionante, o manos que aporten a tus proyectos,
-                  no dudes en llamarme!
-                </p>
-              </div>
-              <div class="col-lg-6">
-                <img src="/images/avatar2.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </main>
-      </div>
-      <div class="about" id="conocimiento" >
-        <img
-          src="/images/avatar1.png"
-          alt=""
-        />
-        <div class="about-info">
-          <h2>About me</h2>
-          <div class="divider"></div>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores id
-            cumque asperiores fugit, quis repudiandae accusamus quisquam modi
-            numquam laudantium fugiat enim eum pariatur amet illum recusandae
-            debitis reprehenderit sed?
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores id
-            cumque asperiores fugit, quis repudiandae accusamus quisquam modi
-            numquam laudantium fugiat enim eum pariatur amet illum recusandae
-            debitis reprehenderit sed?
-          </p>
-          <button class="download-cv">Read more</button>
         </div>
-      </div>
-      <div class="portfolio">
-        <div class="portfolio-heading">
-          <h2>My Portfolio</h2>
-          <div class="divider"></div>
+        <!--conocimiento-->
+        <div class="row about" id="conocimiento">
+            <div class="col-lg-6 p-0">
+                <img src="/images/avatar1.png" alt="" />
+            </div>
+            <div class="col-lg-6 about-info">
+                <h2 class="p-3">Conocimientos y Habilidades</h2>
+                <div class="divider"></div>
+                <ul>
+                    <li>
+                        <i class="fas fa-code"></i>
+                        <span>Desarrollo web con HTML, CSS y JavaScript</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-database"></i>
+                        <span>Bases de datos Mondo DB, Firebase</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-server"></i>
+                        <span> Despliegue de aplicaciones</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-cogs"></i>
+                        <span>Desarrollo de API y servicios web con Express, React, NodeJS</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Diseño web responsivo y adaptativo</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-users"></i>
+                        <span>Trabajo en equipo y colaboración</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Aprendizaje constante y actualización de tecnologías</span>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="container">
-          <div class="card">
-            <div class="card__img"></div>
-            <div class="card__title">
-              <h2>Project Description</h2>
+        <div class="portafolio">
+            <div class="portfolio-heading">
+                <h2>MI Portafolio</h2>
+                <div class="divider"></div>
             </div>
-            <div class="card__proyect-links">
-              <a href="#">
-                <i class="fab fa-github"></i>
-              </a>
-              <a href="">
-                <i class="fas fa-globe-asia"></i>
-              </a>
-              <a href="">
-                <i class="fas fa-code"></i>
-              </a>
+            <div class="container">
+                <div class="card">
+                    <div class="card__img"></div>
+                    <div class="card__title">
+                        <h2>Project Description</h2>
+                    </div>
+                    <div class="card__proyect-links">
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-globe-asia"></i>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-code"></i>
+                        </a>
+                    </div>
+                    <div class="button-content">
+                        <button class="project-details-button download-cv">
+                            <a href="#">Project Details</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img"></div>
+                    <div class="card__title">
+                        <h2>Project Description</h2>
+                    </div>
+                    <div class="card__proyect-links">
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-globe-asia"></i>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-code"></i>
+                        </a>
+                    </div>
+                    <div class="button-content">
+                        <button class="project-details-button download-cv">
+                            <a href="#">Project Details</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img"></div>
+                    <div class="card__title">
+                        <h2>Project Description</h2>
+                    </div>
+                    <div class="card__proyect-links">
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-globe-asia"></i>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-code"></i>
+                        </a>
+                    </div>
+                    <div class="button-content">
+                        <button class="project-details-button download-cv">
+                            <a href="#">Project Details</a>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="button-content">
-              <button class="project-details-button download-cv">
-                <a href="#">Project Details</a>
-              </button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__img"></div>
-            <div class="card__title">
-              <h2>Project Description</h2>
-            </div>
-            <div class="card__proyect-links">
-              <a href="#">
-                <i class="fab fa-github"></i>
-              </a>
-              <a href="">
-                <i class="fas fa-globe-asia"></i>
-              </a>
-              <a href="">
-                <i class="fas fa-code"></i>
-              </a>
-            </div>
-            <div class="button-content">
-              <button class="project-details-button download-cv">
-                <a href="#">Project Details</a>
-              </button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__img"></div>
-            <div class="card__title">
-              <h2>Project Description</h2>
-            </div>
-            <div class="card__proyect-links">
-              <a href="#">
-                <i class="fab fa-github"></i>
-              </a>
-              <a href="">
-                <i class="fas fa-globe-asia"></i>
-              </a>
-              <a href="">
-                <i class="fas fa-code"></i>
-              </a>
-            </div>
-            <div class="button-content">
-              <button class="project-details-button download-cv">
-                <a href="#">Project Details</a>
-              </button>
-            </div>
-          </div>
         </div>
-      </div>
 
-      <div class="contact-section">
-        <div class="contact-heading">
-          <h2>Keep in touch</h2>
-          <div class="divider"></div>
+        <div class="contact-section">
+            <div class="contact-heading">
+                <h2>Keep in touch</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="container-contact">
+                <img src="https://res.cloudinary.com/freelancer2222222222222222/image/upload/v1650543288/samples/img-opacity50_jgruyl.png"
+                    alt="" />
+                <div class="contact-form">
+                    <h4>Send me a message...</h4>
+                    <form class="form-group">
+                        <input type="text" placeholder="Name" class="input" />
+                        <input type="email" placeholder="Email" class="input" />
+                        <textarea name="message" placeholder="Place your message here..."></textarea>
+                        <button type="submit" class="btn-submit">Send message</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="container-contact">
-          <img
-            src="https://res.cloudinary.com/freelancer2222222222222222/image/upload/v1650543288/samples/img-opacity50_jgruyl.png"
-            alt=""
-          />
-          <div class="contact-form">
-            <h4>Send me a message...</h4>
-            <form class="form-group">
-              <input type="text" placeholder="Name" class="input" />
-              <input type="email" placeholder="Email" class="input" />
-              <textarea
-                name="message"
-                placeholder="Place your message here..."
-              ></textarea>
-              <button type="submit" class="btn-submit">Send message</button>
-            </form>
-          </div>
-        </div>
-      </div>
 
-      <footer class="footer">
-        <div class="footer-content">
-          <h2>John Carter</h2>
-          <h5>Frontend Developer</h5>
-        </div>
-        <div class="sotial-networks">
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-twitter-square"></i>
-        </div>
-      </footer>
+        <footer class="footer">
+            <div class="footer-content">
+                <h2>John Carter</h2>
+                <h5>Frontend Developer</h5>
+            </div>
+            <div class="sotial-networks">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </footer>
     </body>
-  </body>
+</body>
+
 </html>
